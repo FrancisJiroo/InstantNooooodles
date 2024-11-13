@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<title>Instant Noodles!</title>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+html{
+	min-height: 100%;
+}
+body{
+	background-color: #FFEFD3;
+	margin: 0;
+}
+
+nav{
+	background-color: orange;
+	width: 500vw;
+	height: auto;
+	position: fixed;
+	display: inline-flex;
+}
+.navbuttonarea li {
+	display: inline;
+	list-style: none;
+	text-decoration: none;
+	font-size: 4vw;
+	font-family: Oswald;
+}
+.navbuttonarea a{
+	text-decoration: none;
+	color: black;
+	transition: 1s ease;
+}
+
+.navbuttonarea a:focus{
+	text-decoration: underline;
+	font-style: italic;
+	color: white;
+	font-weight: bold;
+	transition: 1s ease;
+}
+
+.navbarlogo img{
+	height: 7vh;
+	margin-right: -30px;
+	transition: .5s ease;
+}
+.navbarlogo img:hover{
+	filter: invert(100%);
+	transform: rotate(360deg);
+	transition: .7s ease-out;
+}
+hr{
+	margin: 50px;
+}
+
+#intro p{
+	font-family: Roboto Condensed;
+	width: 80vw;
+}
+
+#history p{
+	width: 80vw;
+	font-family: Playfair Display;
+}
+
+#noodlemaking p, #noodlemaking h1{
+	font-family: Playfair Display;
+	font-weight: normal;
+	width: 70vw;
+}
+#prosandcons li, #prosandcons h1{
+	font-family: Playfair Display;
+	font-weight: normal;
+	width: 70vw;
+}
+#intro, #noodlemaking, #prosandcons{
+	scroll-margin: 200px;
+}
+
+iframe{
+	width: 90vw;
+	height: 25vh;
+}
+.footer{
+	background-color: #292929;
+	width: 100vw;
+	color: white;
+	font-family: Roboto Condensed;
+}
+
+.footer p{
+	width: 80vw;
+}
+</style>
+	<nav>
+		<div class="navbarlogo">
+			<a href="#intro"><img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462569153_987622309836062_1594264654061252131_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHRklJSacp4i_Y5xl6raFzE0UEoXp5vwJrRQShenm_AmrqkwlMpQW_oqhoGpEAgEm4CgniWLr2ufYPtP3grqb5A&_nc_ohc=YNQyD0-3hcEQ7kNvgE8QFXf&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QFdlm0lxZggNM-4PXsAbfbY8UP6hyE6bFj6mGWpcnFBLw&oe=675C1C38">
+		</div>
+		<div class="navbuttonarea">
+			<ul>
+				<li><a href="#history">History</a></li>
+				<li>〡</li>
+				<li><a href="#noodlemaking">Noodle-making</a></li>
+				<li>〡</li>
+				<li><a href="#prosandcons">Pros and Cons</a></li>	
+			</ul>
+		</div>
+	</nav>
+	<br><br><br>
+	<center>
+		<div id="intro">
+			<br>
+			<img src="https://media3.giphy.com/media/KcWaUe5tKkIrSI2LaU/giphy.gif" style="width:50vw; margin: 0;" draggable="false">
+			<h1 style="margin:0; font-weight: normal;font-family: Playfair Display;" id="home">GET YOUR NOODLES</h1>
+			<em><h1 style="margin: 0; color: orange;">✨instantly.✨</h1></em>
+			<p>Instant Noodles gets our <em style="color:red;">cravings</em> in just 5 minutes! Giving us the traditional Ramen vibe without going costly. <em style="color:#294C60">Grab, heat,</em> and it's ready to <em>eat!</em></p>
+		</div>
+		<hr>
+		<div id="history">
+			<h1 style="font-family: Playfair Display; font-weight: normal; margin: 0;">It all starts here.</h1>
+			<p style="font-family: Playfair Display; margin: 0;">HISTORY</p>
+			<br>
+			<img src="https://www.nippon.com/en/ncommon/contents/views/46129/46129.jpg" style="width: 50vw;">
+			<p>- <b>Momofuku Ando</b> walked through the streets of Osaka after the end of World War 2 and saw a long line of people in the cold waiting for a hot bowl of ramen. Due to the war, food shortages were common. This issue, alongside what he witnessed, made him want to come up with a cheap, easy-to-prepare ramen dish.
+			</p>
+			<br>
+			<img src="https://decor24online.com/wp-content/uploads/2020/01/kukhnya-v-yaponskom-stile_5d7134bda1f05.bfJLS_.jpg" style="width: 70vw;">
+			<p>- Soon after, he invented <b>instant ramen</b> in <b>1958.</b></p>
+			<p>- In a shed behind his house in <b>Ikeda, Japan</b>, Ando experimented with different ways of making, drying, and flavoring noodles. Through perseverance and trial and error, he had come up with a method of preparing noodles by sprinkling them with chicken soup and then frying them.
+			</p>
+			<br>
+			<img src="https://www.nissinfoods.com/wp-content/uploads/2023/03/23_NISSIN_Website_Product_ColorBG_CN_Global_Original_V1_1x1_3000x3000.jpg" style="width: 70vw; border-radius: 15px;">
+			<p>- In <b>1971, Ando</b> invented <b>Cup Noodles</b>, the world's first ramen to be served in a cup. The use of a cup was inspired by his travels in the US, where he observed that bowls weren't commonly used for instant noodles unlike in Asia.
+			</p>
+			<br>
+			<img src="https://art4d.com/wp-content/uploads/2021/11/feature-nissin-01.png" style="width: 70vw;">
+			<p>- <b>Nissin</b>;, Ando’s company, continues to sell his product as Top Ramen and Cup Noodles in a wide range of flavors, including <b>beef, shrimp, and soy sauce.</b> The <b>Cup Noodles Museum</b>, with locations in <b>Ōsaka and Yokohama, Japan,</b> celebrates not only noodles but perseverance and ingenuity.
+			</p>
+		</div>
+		<hr>
+		<div id="noodlemaking">
+			<h1>How are Instant Noodles made?</h1>
+			<br>
+			<iframe src="https://www.youtube.com/embed/B1fHexFnxSs?si=DrxTGGN96BNKLzOa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			<br><br><br>
+			<h1>Step-by-step procedures of making instant noodles.</h1>
+			<img src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.15752-9/462575184_1781742739326799_5269029861394580327_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFvPHSTfvOk1pTG3d8UxMjR0Hgd2uYC3ZfQeB3a5gLdlzMxKskSzFrIEPohiGmIlUHQVMKp3AA9VMw4uuKPGX2p&_nc_ohc=rEiSvR60MAsQ7kNvgGdzMYU&_nc_zt=23&_nc_ht=scontent.fmnl17-4.fna&oh=03_Q7cD1QFjXiVUMzvnkc03o9--eWNNMFRwAjFMW9RzXT6vDLO_kA&oe=675C28E2" style="width: 70vw">
+			<p>The production of instant noodles starts with the creation of the dough. Wheat flour, water, and salt are mixed together to create the noodle texture in the final product. The dough then moves on to the cutter or the noodle making machine. It cuts up the dough into strips. <br><br>
+
+After being cut, they are cooked. Instead of being boiled, they are steamed, keeping the noodles' natural flavor as a result. It preserves the quality and taste of the noodles and makes it convenient. <br><br>
+
+After the steaming process, they need to be dried to decrease their moisture content. Moisture prevents the noodles from being stored for longer and removes the crispier texture when eaten. The noodles are dipped in hot oil and taken out for a short period of time, bringing down the moisture. The heat from the oil also makes the noodles absorb water faster later on.<br><br>
+
+Being cooked on the fryer made the noodles hot, and they cannot be packaged without being cooled to a safe temperature. After the fryer, they are cooled in a cooling tunnel where slightly chilled air is around them until they are the right temperature.<br><br>
+
+After cooling, they are packaged up. To ensure freshness, they remove as much air as possible that comes in by vacuum sealing. They also control the moisture which further increases their shelf life.<br><br>
+			</p>
+		</div>
+		<hr>
+		<div id="prosandcons">
+			<h1>Why choose Instant Noodles? (Pros)</h1>
+			<ul>
+				<li>Instant noodles are very easy and quick to make, often taking 3-5 minutes only, therefore it is convenient.</li>
+				<br>
+				<li>They are customizable as the person may add their own ingredients such as eggs or vegetables depending on their preferences.</li>
+				<br>
+				<li>Instant noodles are cheap, thus it is an affordable and savory meal for financially struggling people.</li>
+				<br>
+				<li>They have a long shelf life, making them an ideal food for isolated communities.</li>
+			</ul>
+			<hr>
+			<h1>Cons</h1>
+			<ul>
+				<li>Instant noodles do not provide nutritional value as they have 4 grams of protein and only 1 gram of fiber.</li>
+				<br>
+				<li>They contain MSG which is known to be associated with multiple health issues.</li>
+				<br>
+				<li>The sodium amount in instant noodles servings is high which may cause trouble to those with high blood pressure.</li>
+				<br>
+				<li>Regularly consuming instant noodles is a poor diet as it is low in protein and other vitamins and minerals.</li>
+				
+			</ul>
+		</div>
+		<div class="footer">
+			<br>
+			<p><em style="color: yellow">References can be seen in the bottom part of the page.</em></p>
+			<p>Project by Group 2 (Bernardo, Manuel, Lingcod, Paraiso, Ramallosa, Panlaqui)</p>
+			<p>Coded by: Francis Jiro Bernardo</p>
+			<p>Contents made by: Javier Gign Manuel and Mark Thomas Lingcod</p>
+			<br>
+		</div>
+		<h1>References</h1>
+		<a href="https://www.britannica.com/story/how-was-instant-ramen-invented">https://www.britannica.com/story/how-was-instant-ramen-invented</a><br><br>
+		<a href="https://consumer-voice.org/instant-noodles/whats-bad-or-good-about-instant-noodles/">https://consumer-voice.org/instant-noodles/whats-bad-or-good-about-instant-noodles/</a><br><br>
+		<a href="https://loyal-machine.com/blog/instant-noodle-manufacturing-process/">https://loyal-machine.com/blog/instant-noodle-manufacturing-process/</a>
+	</center>
+</body>
+</html>
